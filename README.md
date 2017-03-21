@@ -1,6 +1,6 @@
 ## Straight CURDin'
 
-![image](https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/3/13/1363190066646/Best-Farmhouse-Cheese-Ins-008.jpg)
+![image](https://media.giphy.com/media/332SpoiZo7ToI/giphy.gif)
 
 You all already know how to CRUD. Tonight, you learn to *CURD* (takes off sunglasses).
 
