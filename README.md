@@ -116,3 +116,7 @@ Add the following methods to the `Cheese` model:
 - .cow? - returns true if the cheese is from cow milk, false otherwise
 - .goat? - returns true if the cheese is from goat milk, false otherwise
 - .stanky? - returns true if stank_level is above 4, false otherwise
+
+
+## BONUS!!
+A lot of you wanted to do this using the `react-on-rails` gem to get more practice marrying React and Rails together (in my humble opinion the greatest stack in history: a sweet, sweet balance of speed and power, with ActiveRecord thrown in for good measure). Try to tackle this using that gem (or another one that you like better) or running React and Rails (as an API) on two separate server ports to get used to using React on Rails.
