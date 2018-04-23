@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2018_04_23_202537) do
     t.string "milk_type"
     t.string "image_url"
     t.string "description"
+    t.integer "stank_level", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
