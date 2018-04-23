@@ -72,22 +72,35 @@ From the `/countries/cheeses/CHEESE_IN_QUESTION` route, one should be able to ge
 
 Fulfill the following specification:
 
-## Cheesemonger's Choice
+### Cheesemonger's Choice
 
 GET requests to `/cheesemongers_choice` should display the information of a randomly selected cheese.
 
-## Moldin' it Down
+### Moldin' it Down
 
 Update the cheese's "show" page with a "Mold!" button. when the user clicks the button, it should increment the cheese's `stank_level` in the database and redirect to the cheese's show page.
 
-## Add a Vignotte
+### Add a Vignotte
 
 Style the pages!
 
-## Wait just a Minute
+### Wait just a Minute
 
 Add the following methods to the `Cheese` model:
 
 - .cow? - returns true if the cheese is from cow milk, false otherwise
 - .goat? - returns true if the cheese is from goat milk, false otherwise
 - .stanky? - returns true if stank_level is above 4, false otherwise
+
+## 🚀 Completion looks like:
+
+- You have a Rails app in this repo
+    - **REMEMBER**: Initialize your rails app using `rails new straight_curdin -G --database=postgresql`.
+- Your rails app has all the requirements up to and including Part 8
+
+## 🚀 Your homework submission should include:
+
+- A pull request created on _this repo_.
+- Completion, comfort, wins, losses, questions... you know the drill.
+
+## This homework is due 🚨 11PM ON MONDAY NIGHT 🚨
