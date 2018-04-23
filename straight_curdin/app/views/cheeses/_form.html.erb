@@ -1,0 +1,7 @@
+<%= form_with model: @cheese do |f| %>
+  <%= f.text_field :name, placeholder: "name" %>
+  <%= f.text_field :milk_type, placeholder: "milk type" %>
+  <%= f.text_field :image_url, placeholder: "image url" %>
+  <%= f.text_field :description, placeholder: "description" %>
+  <%= f.submit "Submit" %>
+<% end %>
