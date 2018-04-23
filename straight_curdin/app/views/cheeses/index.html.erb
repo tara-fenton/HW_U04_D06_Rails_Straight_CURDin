@@ -6,6 +6,8 @@
         <a href='/cheeses/<%= cheese.id %>' class="cheese-link">
           <%= cheese.name %>
         </a>
+
       </li>
+      <%= link_to "Delete", cheese, :method => :delete%>
   <% end %>
 </ul>

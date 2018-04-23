@@ -35,11 +35,12 @@ class CheesesController < ApplicationController
     end
   end
 
+
   def destroy
     @cheese = Cheese.find(params[:id])
     @cheese.destroy
 
-    redirect_to cheeses_path
+    redirect_to @cheese
   end
 
   private
