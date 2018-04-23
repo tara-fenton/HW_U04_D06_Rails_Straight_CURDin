@@ -6,7 +6,7 @@ You all already know how to CRUD. Tonight, you learn to *CURD* (takes off sungla
 
 ## Completion
 
-Please finish through __Part 8__. As always: more is cheddar; gourmet living is betta.
+Please finish through __Part 8__. As always: more is cheddar; gourmet is betta.
 
 ## Part 1: Setup
 
