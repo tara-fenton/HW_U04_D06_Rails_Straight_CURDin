@@ -25,11 +25,13 @@ class CheesesController < ApplicationController
     end
   end
 
+  # post edit
+
   def update
     @cheese = Cheese.find(params[:id])
 
     if @cheese.update(cheese_params)
-      redirect_to cheeses_path
+      redirect_to cheese_path(params[:id])
     else
       render 'edit'
     end
