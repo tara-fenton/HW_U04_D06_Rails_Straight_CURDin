@@ -1,9 +1,11 @@
 <h1>The Great Hall of Cheeses</h1>
 
+<ul>
 <% @cheeses.each do |cheese| %>
-      <h3>
+      <li>
         <a href='/cheeses/<%= cheese.id %>' class="cheese-link">
           <%= cheese.name %>
         </a>
-      </h3>
+      </li>
   <% end %>
+</ul>
