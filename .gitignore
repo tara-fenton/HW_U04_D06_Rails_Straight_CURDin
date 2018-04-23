@@ -1,0 +1,9 @@
+log/
+test/
+tmp/
+
+straight_curding/log/
+straight_curding/test/
+straight_curding/tmp/
+
+.DS_Store
