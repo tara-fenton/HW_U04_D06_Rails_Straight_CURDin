@@ -6,7 +6,7 @@ class CreateCheeses < ActiveRecord::Migration[5.2]
       t.string :image_url
       t.string :description
       t.integer :stank_level, default: 0
-      t.references :country_id
+      t.references :country
 
       t.timestamps
     end

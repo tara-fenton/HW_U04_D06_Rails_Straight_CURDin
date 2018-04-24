@@ -21,10 +21,10 @@ ActiveRecord::Schema.define(version: 2018_04_23_222223) do
     t.string "image_url"
     t.string "description"
     t.integer "stank_level", default: 0
-    t.bigint "country_id_id"
+    t.bigint "country_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["country_id_id"], name: "index_cheeses_on_country_id_id"
+    t.index ["country_id"], name: "index_cheeses_on_country_id"
   end
 
   create_table "countries", force: :cascade do |t|
