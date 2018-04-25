@@ -24,4 +24,12 @@
   <strong>Country:</strong>
   <%= @cheese.country_id %>
 </p>
+<% if user_signed_in? %>
+  <%= form_with model: @favorite do |f| %>
+    <%= f.hidden @cheese.id %>
+    <%= f.hidden current_user.id %>
+    <%= f.submit "Add Cheese to Favorites" %>
+  <% end %>
+<% end %>
+
 <a href='/cheeses/<%= @cheese.id %>/edit'>Edit </a>

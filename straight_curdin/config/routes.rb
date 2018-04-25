@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'favorites/index'
   devise_for :users
   get 'cheeses/index'
   get 'profiles/index'
