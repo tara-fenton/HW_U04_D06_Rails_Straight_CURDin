@@ -3,6 +3,7 @@ class FavoritesController < ApplicationController
   end
 
   def create
+    p 'here in create'
     @favorite = Favorite.new(favorite_params)
 
     if @favorite.save

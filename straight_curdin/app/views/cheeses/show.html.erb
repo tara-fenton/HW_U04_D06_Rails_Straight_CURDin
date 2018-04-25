@@ -26,8 +26,8 @@
 </p>
 <% if user_signed_in? %>
   <%= form_with model: @favorite do |f| %>
-    <%= f.hidden @cheese.id %>
-    <%= f.hidden current_user.id %>
+    <%= f.hidden_field :cheese_id, :value => @cheese.id %>
+    <%= f.hidden_field :user_id, :value => current_user.id %>
     <%= f.submit "Add Cheese to Favorites" %>
   <% end %>
 <% end %>
